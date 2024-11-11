@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat';
+    color: #fff;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+video{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    position: fixed;
+    z-index: -1;
+}
+main{
+    position: relative;
+    background-color: rgb(0, 0, 0, 0.37)
+}
+#page1{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+#page1 h1{
+    font-size: 140px;
+    font-weight: 900;
+    position: relative;
+}
+#page1 h1::before{
+    content: "COME, VISIT, ENJOY.";
+    position: absolute;
+    color: #410137;
+    top: -6px;
+    left: -6px;
+    -webkit-text-stroke: 1px red;
+    /* z-index: -1; */
+}
+#page1 h2{
+    font-size: 33px;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+#page1 h2::before{
+    content: "!WELCOME TO INDIXPLORE!";
+    position: absolute;
+    color: #a4d407;
+    top: -0px;
+    left: -0px;
+    -webkit-text-stroke: 1px rgb(65, 2, 212);
+}

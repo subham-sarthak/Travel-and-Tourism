@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    width: 101%;
+    height: 10%;
+    /* border: 1px solid #000; */
+    margin: auto;
+}
+header .content{
+    position: absolute;
+    width: 100%;
+    height: 38%;
+    /*border: 1px solid #000;*/
+}
+header .content::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 220%;
+    /*border: 1px solid #000;*/
+    background: url("image/Tezpur\ A.jpg")no-repeat center center/cover;
+    border-radius: 10px;
+    z-index: -1;
+}
+header .content .cont_bx{
+    width: 500px;
+    height: auto;
+    color: #fff;
+    padding: 30px;
+}
+/* header .content .cont_bx h1{
+    line-height: 40px;
+    font-weight: 800;
+    boarder: 1px solid #000;
+}
+header .content .cont_bx p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #f6f6f6
+}
+header .content .cont_bx button{
+    margin-top: 1px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid #000;
+    background: #000;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    transition: .3s linear;
+}
+header .content .cont_bx button:hover{
+    background: rgb(113, 113, 113);
+    border:  2px solid rgb(113, 113, 113);
+}
+header .trip_bx{
+    position: relative;
+    width: 100%;
+    height: 140%;
+    margin: auto;
+    border: 1px solid #000;
+}
+header .trip_bx .search_bx{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 10px 25px rgb(114, 114, 114);
+    z-index: 1;
+    padding: 10px 20px;
+}
+header .trip_bx .search_bx .card{
+    width: 320px;
+    height: 60px;
+    border: 1px solid #000;
+    
+}
+header .trip_bx .search_bx .card h4{
+    font-size: 15px;
+    margin: 0;
+    font-weight: 700;
+}
+header .trip_bx .search_bx .card h4 .bi{
+    position: absolute;
+    font-size: 13px;
+    margin: 2px 0px 0px 5px;
+    transform: .3s linear;
+}
+header .trip_bx .search_bx .card input{
+    margin-top: 3px;
+    padding: 5px 0px ;
+    border: none;
+    outline: none;
+    font-size: 13px;
+}
+header .trip_bx .search_bx input[type="button"]{
+    background: #000;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: .3s linear;
+    cursor: pointer;
+}
+header .trip_bx .search_bx input[type="button"]:hover{
+    background: gray;
+} */
+header .trip_bx .travel_bx{
+    position: relative;
+    width: 100;
+    height: auto;
+    margin: auto;
+    top: 30px;
+    /*background: #000;*/
+    /*border: 1px solid #000;*/
+    border-radius: 90px;
+    padding-bottom: 100px;
+    box-shadow: 0px 20px 25px -10px rgb(165, 165, 165);
+}
+header .trip_bx .travel_bx::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background: rgb(241, 241, 241, .7);
+    backdrop-filter: blur(5px);
+    z-index: -1;
+}
+header .trip_bx .travel_bx h4{
+    margin: 0;
+    padding: 60px 0px 15px 1.7%;
+}
+header .trip_bx .travel_bx .cards{
+    width: 100%;
+    height: 20%;
+    /* padding: 10px 10px; */
+    /* border: 1px solid #0f0f0f; */
+
+}
+header .trip_bx .travel_bx .cards img{
+    height: 400px;
+    width: 300px;
+    margin-left: 2px;
+    margin-bottom: 1vh;
+    margin-top: 1px;
+    /* border: 1px solid #0e0e0e; */
+}
+header .trip_bx .travel_bx .cards .cards-text{
+    width: 1000px;
+    height: 100%;
+    /* border: 1px solid #0e0e0e; */
+}
+header .trip_bx .travel_bx .cards .card{
+    width: 200%;
+    max-width: 99%;
+    margin: 10 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+header .trip_bx .travel_bx .cards .card h5{
+    color: #9b0e0e;
+    font-size: 30px;
+    margin-top: 10px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    /* border: 1px solid #000000; */
+    margin-left: 15px;
+}
+span{
+    color: red;
+}
+header .trip_bx .travel_bx .cards .card h1{
+    color: #d607c8;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    /* border: 1px solid #000000; */
+
+}
+header .trip_bx .travel_bx .cards .card h2{
+    color: rgb(29, 6, 200);
+    font-size: 15px;
+    margin-bottom: 10px;
+    /* border: 1px solid #101010; */
+    margin-left: 15px;
+    /* margin-top: 10px; */
+}
+header .trip_bx .travel_bx .cards .card p{
+    color: #111111;
+    letter-spacing: 1px;
+    line-height: 18px;
+    font-size: 15px;
+    margin-bottom: 8px;
+    margin-left: 15px;
+    /* border: 1px solid #0f0f0f; */
+
+}
+header .trip_bx .travel_bx .cards .card p1{
+    color: #2303f1db;
+    letter-spacing: 2px;
+    line-height: 20px;
+    font-size: 18px;
+    margin-left: 15px;
+    margin-bottom: 40px;
+    border: 1px solid #1c1c1c;
+
+}
+/* header .trip_bx .travel_bx .cards .card .btn_city a:hover{
+    background: gray;
+}
+header .trip_bx .travel_bx .cards .card .btn_city h5{
+    font-size: 11px;
+    font-weight: 500;
+    margin: 0px;
+    margin-top: 5px;
+    line-height: 15px;
+}
+header .trip_bx .travel_bx .cards .card .btn_city h5 span{
+    font-size: 13px;
+    font-weight: 700;
+} */

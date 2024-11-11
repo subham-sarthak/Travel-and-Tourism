@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    width: 100%;
+    height: 85%;
+    /*border: 1px solid #000;*/
+    margin: auto;
+}
+header .content{
+    position: relative;
+    width: 100%;
+    height: 93%;
+    /* border: 1px solid #000; */
+}
+header .content::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    /* border: 1px solid #000; */
+    background: url("image/background img10.jpg") no-repeat center center/cover;
+    border-radius: 10px;
+    z-index: -1;
+}
+header .content .cont_bx{
+    width: 500px;
+    height: auto;
+    color: #0ab9c9;
+    padding: 30px;
+}
+header .content .cont_bx h1{
+    line-height: 30px;
+    font-weight: 800;
+    /* border: 1px solid #000; */
+}
+header .content .cont_bx h1 img{
+    width: 50px;
+    height: 20px;
+    margin-left: 5px;
+    /* border: 1px solid #000; */
+}
+header .content .cont_bx p{
+    font-size: 20px;
+    height: 40px;
+    font-weight: 800;
+    color: #ff78ac;
+    /* border: 1px solid #000; */
+}
+header .content .cont_bx button{
+    margin-top: 40px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    /*border: 2px solid #fff;*/
+    background: #000000;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    transition: .3s linear;
+}
+header .content .cont_bx button:hover{
+    background: rgb(113, 113, 113);
+    /*border:  2px solid rgb(113, 113, 113);*/
+}
+header .travel_bx{
+    position: relative;
+    width: 100;
+    height: auto;
+    margin: auto;
+    top: 30px;
+    /*background: #000;*/
+    /*border: 1px solid #000;*/
+    border-radius: 10px;
+    padding-bottom: 20px;
+    box-shadow: 0px 20px 25px -10px rgb(165, 165, 165);
+}
+
+header .travel_bx .new{
+    position: relative;
+    width: 100;
+    height: auto;
+    /*background: #000;*/
+    /*border: 1px solid #000;*/
+}
+
+header .travel_bx::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background: rgb(241, 241, 241, .7);
+    backdrop-filter: blur(5px);
+    z-index: -1;
+}
+header .travel_bx h4{
+    margin: 0;
+    padding: 80px 1px 1px 40%;
+    font-size: 30px;
+}
+header .travel_bx .cards{
+    width: 90%;
+    height: auto;
+    margin: 13px 13px;
+    margin-left: 50px;
+    /*space of sports*/
+    /* border: 1px solid #000; */
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+header .travel_bx .cards .card{
+    min-width: 200px;
+    height: 180px;
+    /* border: 5px solid #000; */
+}
+header .travel_bx .cards .card h3{
+    margin: 0px 0px 10px 0px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600px;
+}
+header .travel_bx .cards .card h3{
+    margin: 0px 0px 10px 0px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600px;
+
+}
+header .travel_bx .cards .card h3 img{
+    width: 50px;
+    height: 20px;
+    margin-left: 5px;
+    /* border: 5px solid #000; */
+}
+header .travel_bx .cards .card img{
+    width: 100%;
+    height: 120px;
+    /* border: 1px solid #000; */
+}
+header .travel_bx .cards .card .btn_city{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*border: 1px solid #000;*/
+}
+header .travel_bx .cards .card .btn_city a{
+    text-decoration: none;
+    background: #000;
+    color: #fff;
+    border-radius: 20px;
+    padding: 6px 20px;
+    font-size: 11px;
+    transition: .3s linear;
+}
+header .travel_bx .cards .card .btn_city a:hover{
+    background: gray;
+}
+header .travel_bx .cards .card .btn_city h5{
+    font-size: 11px;
+    font-weight: 500;
+    margin: 0px;
+    margin-top: 5px;
+    line-height: 15px;
+}
+header .travel_bx .cards .card .btn_city h5 span{
+    font-size: 13px;
+    font-weight: 700;
+}
+.offers{
+    width: 80%;
+    height: auto;
+    /*border: 1px solid #000;*/
+    margin: auto;
+    margin-top: 100px;
+}
+.offers h1{
+    font-weight: 600px;
+    text-align: center;
+    margin: 0;
+}
+.offers p {
+    font-weight: 500px;
+    text-align: center;
+    margin: 0;
+}
+.offers .cards{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*border: 1px solid #000;*/
+    flex-wrap: wrap;
+}
+.offers .cards .card{
+    position: relative;
+    width: 500px;
+    height: 400px;
+    /*border: 1px solid #000;*/
+    margin: 10px;
+}
+.offers .cards .card h3{
+    width: 140px;
+    padding: 6px 0px;
+    background: rgb(165, 243, 165);
+    border-radius: 20px;
+    font-size: 12px;
+    display: grid;
+    place-items: center;
+    margin: auto;
+}
+.offers .cards .card .img_text{
+    position: relative;
+    width: 100%;
+    height: 270px;
+    margin-top: 5px;
+}
+.offers .cards .card .img_text img{
+    position: relative;
+    width: 100%;
+    height: 95%;
+    border-radius: 10px 10px 0px 0px;
+}
+.offers .cards .card .img_text h4{
+    position: absolute;
+    font-size: 9px;
+    padding: 10px 15px;
+    bottom: 0;
+    margin: 0;
+    color: rgb(189, 229, 11);
+    z-index: 2;
+}
+.offers .cards .card .img_text h4::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100;
+    background: rgb(255, 255, 255, .1);
+    backdrop-filter: blur(5px);
+    z-index: -1;
+    bottom: 0;
+    left: 0;
+}
+.offers .cards .card .cont_bx{
+    width: 99%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*border: 1px solid rgb(214, 214, 214);*/
+    padding: 5px 0px;
+    border-radius: 0px 0px 5px 5px;
+}
+.offers .cards .card .cont_bx .price , .days{
+    margin: 2px 8px;
+}
+.offers .cards .card .cont_bx .price , .days .heart_chat{
+    display: flex;
+    align-items: center;
+}
+.offers .cards .card .cont_bx .price .heart_chat i:nth-child(1){
+    color: red;
+    font-size: 15px;
+    margin-right: 10px;
+}
+.offers .cards .card .cont_bx .price .heart_chat i span{
+    color: #000;
+    font-size: 12px;
+    margin-left: 3px;
+    font-style: normal;
+}
+.offers .cards .card .cont_bx .price .heart_chat i:nth-child(2){
+    color: rgb(112, 196, 229);
+    font-size: 13px;
+    margin-right: 10px;
+}
+.offers .cards .card .cont_bx .price .info_price{
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+}
+.offers .cards .card .cont_bx .price .info_price a{
+    text-decoration: none;
+    color: #000;
+    font-size: 11px;
+    font-weight: 700;
+    transition: .3s linear;
+    margin-right: 13px;
+}
+.offers .cards .card .cont_bx .price .info_price a:hover{
+    color: gray;
+}
+.offers .cards .card .cont_bx .price .info_price h4{
+    margin: 0;
+    font-size: 13px;
+}
+.offers .cards .card .cont_bx .days{
+    color: #fff;
+    background: #000;
+    font-size: 8px;
+    border-radius: 50%;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: .3s linear;
+}
+.offers .cards .card .cont_bx .days:hover{
+    transform: rotate(360deg);
+    
+}
+.destination{
+    width: 45%;
+    height: auto;
+    /*border: 1px solid #000;*/
+    margin: auto;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.destination .des_bx , .img_bx{
+    position: relative;
+    width: 50%;
+    height: auto;
+    /*border: 1px solid #000;*/
+}
+.destination .des_bx h4{
+    margin: 0;
+    font-size: 20px;
+    color: #000;
+    line-height: 10px;
+    letter-spacing: 1px;
+}
+.destination .des_bx p {
+    font-size: 12px;
+}
+.destination .des_bx li{
+    list-style-type: none;
+    padding: 0px 0px 8px 0px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.destination .des_bx h6 {
+    width: 250px;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 20px 0px;
+}
+.destination .des_bx button{
+    font-size: 12px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    background: #000;
+    color: #fff;
+    /*border: 2px solid #000;*/
+    cursor: pointer;
+    transition: .3s linear;
+}
+.destination .des_bx button:hover{
+    background: gray;
+    /*border: 2px solid gray;*/
+}
+.destination .img_bx img{
+    width: 100%;
+    height: 420px;
+    border-radius: 5px;
+}
+.destination .img_bx .msg {
+    position: absolute;
+    top: 45%;
+    left: -10%;
+    width: 120px;
+    height: 50px;
+    background: #fff;
+    box-shadow: 0px 5px 20px gray;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    border-radius: 5px;
+}
+.destination .img_bx .msg img{
+    width: 50px;
+    height: 55%;
+}
+.destination .img_bx .msg .cont{
+    margin-left: 15px;
+}
+.destination .img_bx .msg img h4{
+    margin: 0;
+    font-size: 15px;
+    font-weight: 500;
+}
+/*.destination .img_bx .msg .cont .bi:nth-child(1){
+    color: red;
+    margin-right: 5px;
+    font-size: 13px;
+}.destination .img_bx .msg .cont .bi span{
+    font-style: normal;
+    margin-left: 3px;
+    font-size: 12px;
+    color: gray;
+}
+.destination .img_bx .msg .cont .bi:nth-child(2){
+    color: rgb(112, 196, 229);
+}*/
